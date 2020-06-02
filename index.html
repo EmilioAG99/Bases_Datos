@@ -1,0 +1,75 @@
+<!doctype html>
+    <html lang="en">
+
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <meta name="description" content="">
+          <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+          <meta name="generator" content="Jekyll v4.0.1">
+          <title>Bienvenidos</title>
+      
+          <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
+      
+          <!-- Bootstrap core CSS -->
+      <link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
+      
+          <style>
+            .bd-placeholder-img {
+              font-size: 1.125rem;
+              text-anchor: middle;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+            }
+      
+            @media (min-width: 768px) {
+              .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+              }
+            }
+          </style>
+          <!-- Custom styles for this template -->
+          <link href="signin.css" rel="stylesheet">
+</head>
+
+
+
+<body class="text-center">
+  
+  <form class="form-signin">
+<img class="mb-4" src="logo2.png" alt="" width="300" height="300">
+</form> 
+    <h1 class="h3 mb-3 font-weight-normal">Inicia Sesión</h1>
+  
+    <form_group class="form-signin">
+    <form name="Inicio Sesion" action="ConexionP.php" method="get">
+        <input type="hidden" value="2" name="id">
+        <div>
+        <input class="campos" type="email"  name="usuario" id="inputEmail" class="form-control" placeholder="Correo Electrónico" required autofocus>
+        <input class="campos" type="password"  name="password" id="inputEmail" class="form-control" placeholder="Contraseña" required autofocus>
+      </div>
+        <button class="myButton" type="submit">Inicia Sesión</button>
+      </form> 
+    </form_group> 
+
+    <form_group class="form-signin">
+    <h1 class="h3 mb-3 font-weight-normal">O Regístrate</h1> 
+    <form name="Registro" action="ConexionP.php" method="get" class="form-signin">
+      <div>
+        <input class="campos" type="hidden" value="3" name="id">
+        <input class="campos" type="email" name="usuario" class="form-control"  placeholder="Correo Electrónico" required>
+        <input class="campos" type="text" name="name" class="form-control"  placeholder="Nombre" required>
+        <input class="campos" type="text" name="edad" class="form-control"  placeholder="Edad" required>
+        <input class="campos" type="text" name="genero" class="form-control"  placeholder="Género" required>
+        <input class="campos" type="password"  name="password" id="inputEmail" class="form-control" placeholder="Contraseña" required autofocus>
+      </div>
+        <button class="myButton" type="submit">Enviar información</button>
+    </form> 
+  </form_group> 
+  
+
+
+</body>
+</html>

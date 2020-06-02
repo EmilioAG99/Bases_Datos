@@ -1,0 +1,283 @@
+.jumbotron {
+  box-sizing: border-box;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.hero{
+
+  box-sizing: border-box;
+
+    background-image: url("concert.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 600px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+.text-portada{
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding-left: 40mm;
+  padding-right: 40mm;
+
+}
+
+body{
+  background-color: #e2dddc;
+}
+
+
+h1{
+font-size: 80px;
+text-align: center;
+padding-top: 40mm;
+color: rgba(255, 0, 0, 0.767);
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+  margin-left: auto;
+  margin-right: auto;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia, 'Times New Roman', Times, serif ;
+	font-size:18px;
+	padding:6px 24px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #854629;
+  align-items: center ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2{
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+  margin-left: auto;
+  margin-right: auto;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia, 'Times New Roman', Times, serif ;
+	font-size:18px;
+	padding:6px 12px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #854629;
+
+}
+.myButton2:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+
+.myButton3{
+	box-shadow:inset 0px 1px 0px 0px #2b2929;
+	background:linear-gradient(to bottom, #042e46 5%, #053b6d 100%);
+	background-color:#181716;
+	border-radius:3px;
+	border:1px solid #080808;
+  margin-left: 85%;
+  margin-right: auto;
+  margin-top: unset;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia, 'Times New Roman', Times, serif ;
+	font-size:18px;
+	padding:6px 12px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #854629;
+
+}
+.myButton3:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
+
+img {
+  border: 1px solid #ddd;
+ 
+  padding: 5px;
+  background-color: grey;
+  width: 450px;
+
+}
+
+.parte2{
+  background-color: rgb(202, 194, 194);
+  
+  margin-right: 38mm;
+}
+
+.container1 {
+  box-sizing: border-box;
+  position: relative;
+ 
+  
+}
+.container2 {
+  box-sizing: border-box;
+  position: relative;
+  left:70mm;
+  
+}
+
+.container3 {
+  position: relative;
+  left: 70mm;
+  
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  top: 115mm;
+  bottom: 65mm;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: larger;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  opacity: 0.8;
+
+}.text-block2 {
+  box-sizing: content-box;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  top: 80mm;
+  bottom: 293mm;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: larger;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  opacity: 0.8;
+}
+
+.folletos{
+  padding-right: 100mm;
+  left: 0mm;
+}
+
+.campos {
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5, red 100%);
+	background-color: white;
+	border-radius:3px;
+	border:1px solid ;
+	display: flex;
+
+	color:black;
+	font-family: Georgia, 'Times New Roman', Times, serif ;
+	font-size:18px;
+	padding:6px 24px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #854629;
+  
+}
+
+.campos:active {
+	position:relative;
+  top:1px;
+}
+
+.position{
+  left: 130%;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li {
+  float:center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(160, 14, 14);
+}
+
+.active {
+  background-color: rgb(146, 33, 33);
+}
+
+.cuerpo{
+  background-color: gray ;
+}
